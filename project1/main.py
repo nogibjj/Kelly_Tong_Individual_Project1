@@ -8,7 +8,7 @@ def main():
     summary = lib.summary_statistics(data)
     print(summary)
 
-    save_visual("MPG vs Weight", data)
+    save_visual("scatter_mpg", data)
 
 def save_visual(name, data):
     lib.scatter_mpg(data)
