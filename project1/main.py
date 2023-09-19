@@ -8,6 +8,10 @@ def main():
     summary = lib.summary_statistics(data)
     print(summary)
 
+def save_visual(name, data):
+    
+    
+
 
 if __name__ == "__main__":
     main()
