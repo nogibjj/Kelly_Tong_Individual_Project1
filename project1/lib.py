@@ -22,8 +22,8 @@ def describe_dataset(data_path):
   return markdown_output
 
 def scatter_mpg(data_path):
-  # Create the scatter plot
   Auto = data_path
+  # Create the scatter plot
   plt.figure(figsize=(10, 6))
   plot = sns.scatterplot(data = Auto, x = 'weight', y = 'mpg', hue = 'origin')
   
@@ -37,6 +37,8 @@ def scatter_mpg(data_path):
   return plot
 
 def fitted_mpg():
+  Auto = data_path
+  
   plt.figure(figsize=(10, 6))
   sns.lmplot(data=Auto, x='weight', y='mpg', hue='origin', height=6, aspect=2)
   
@@ -48,6 +50,8 @@ def fitted_mpg():
   plt.show()
 
 def scatter_acc():
+  Auto = data_path
+  
   # Create the scatter plot
   plt.figure(figsize=(10, 6))
   sns.scatterplot(data = Auto, x = 'weight', y = 'acceleration', hue = 'year')
@@ -61,6 +65,8 @@ def scatter_acc():
   plt.show()
 
 def fitted_acc():
+  Auto = data_path
+  
   plt.figure(figsize=(10, 6))
   sns.lmplot(data=Auto, x='weight', y='acceleration', hue='year', height=6, aspect=2)
   
