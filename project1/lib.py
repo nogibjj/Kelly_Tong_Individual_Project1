@@ -12,7 +12,7 @@ def view_dataset(data_path):
   print(Auto.columns())
 
 def save_plot(name, data):
-  scatter_mpg(data).savefig("project/visualization/" + f"plot_{name}.png")
+  scatter_mpg(data).savefig("project1/visualization/" + f"plot_{name}.png")
 
 
 def describe_dataset(data_path):
