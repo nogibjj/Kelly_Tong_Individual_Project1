@@ -11,6 +11,9 @@ def view_dataset(data_path):
   print(Auto.head())
   print(Auto.columns())
 
+def save_plot(name, data):
+  plot_visualize(data).savefig("pythonproject/figures/" + f"scatter_plot_{file_name}.png")
+
 
 def describe_dataset(data_path):
   #Auto = pd.DataFrame(data_path)
