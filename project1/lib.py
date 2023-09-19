@@ -24,7 +24,7 @@ def describe_dataset(data_path):
 def scatter_mpg():
   # Create the scatter plot
   plt.figure(figsize=(10, 6))
-  sns.scatterplot(data = Auto, x = 'weight', y = 'mpg', hue = 'origin')
+  plot = sns.scatterplot(data = Auto, x = 'weight', y = 'mpg', hue = 'origin')
   
   # Set labels for the axes
   plt.xlabel('Vehicle weight (lbs)')
@@ -33,6 +33,7 @@ def scatter_mpg():
   
   # Show the plot
   plt.show()
+  return plot
 
 def fitted_mpg():
   plt.figure(figsize=(10, 6))
