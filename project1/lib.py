@@ -21,8 +21,9 @@ def describe_dataset(data_path):
   markdown_describe = describe.to_markdown()
   return markdown_output
 
-def scatter_mpg():
+def scatter_mpg(data_path):
   # Create the scatter plot
+  Auto = data_path
   plt.figure(figsize=(10, 6))
   plot = sns.scatterplot(data = Auto, x = 'weight', y = 'mpg', hue = 'origin')
   
