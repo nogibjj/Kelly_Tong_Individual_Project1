@@ -40,7 +40,7 @@ def scatter_mpg(data_path):
   
   # Show the plot
   plt.show()
-  plt.savefig("project1/plots/scatter_mpg.png")
+  plt.savefig("project1/scatter_mpg.png")
   #return plot
 
 def fitted_mpg(data_path):
