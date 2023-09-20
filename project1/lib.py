@@ -25,23 +25,7 @@ def describe_dataset(data):
   #markdown_describe = describe.to_markdown()
   return df.describe()
 
-def scatter_mpg(data_path):
-  Auto = pd.read_csv(data_path)
-  # Create the scatter plot
-  plt.figure(figsize=(10, 6))
-  plot = sns.scatterplot(data = Auto, x = 'weight', y = 'mpg', hue = 'origin')
-  
-  # Set labels for the axes
-  plt.xlabel('Vehicle weight (lbs)')
-  plt.ylabel('MPG')
-  plt.title('Correlation between Vehicle Weight and MPG based on origin')
-  
-  plot.legend()
-  
-  # Show the plot
-  plt.show()
-  plt.savefig("scatter_mpg.png")
-  #return plot
+
 
 
 
