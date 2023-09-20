@@ -3,6 +3,7 @@ import os
 import data from main
 
 def test_data():
+  data = data()
   assert data is not None
 
 def test_save_plot():
