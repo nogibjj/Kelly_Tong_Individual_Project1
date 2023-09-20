@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	#python -m py.test --nbval project1/*.ipynb 
+	python -m py.test --nbval project1/*.ipynb 
 	python -m pytest -vv --cov=project1 project1/*.py
 
 format:	
