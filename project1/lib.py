@@ -51,6 +51,7 @@ def fitted_mpg(data_path):
   
   # Show the plot
   plt.show()
+  plt.savefig("fitted_mpg.png")
 
 def scatter_acc(data_path):
   Auto = data_path
@@ -90,8 +91,8 @@ def generate_general_markdown(data):
     with open("Stats_output.md", "w", encoding="utf-8") as file:
         file.write("Describe:\n")
         file.write(markdown_table1)
-        file.write("\n\n")  # Add a new line
-        file.write("![weight vs mpg](mpg.png)\n")
+        #file.write("\n\n")  # Add a new line
+        #file.write("![weight vs mpg](mpg.png)\n")
         file.write("\n\n")  # Add a new line
         file.write("![fitted weight vs mpg](fitted_mpg.png)\n")
 
