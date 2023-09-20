@@ -1,6 +1,6 @@
 #This is the python script that describe the statistics
 import lib
-#import pandas
+import pandas
 
 def main():
     """Main function to call data visualization functions"""
