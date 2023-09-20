@@ -4,7 +4,8 @@ import lib
 
 def main():
     """Main function to call data visualization functions"""
-    data = "project1/Auto.csv"
+    
+    data() 
                        
     summary = lib.describe_dataset(data)
     print(summary)
@@ -18,6 +19,10 @@ def main():
     lib.fitted_acc(data)
 
     lib.generate_general_markdown(data)
+
+def data():
+    data = "project1/Auto.csv"
+    return data
 
 if __name__ == "__main__":
     main()
