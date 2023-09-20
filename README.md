@@ -87,7 +87,7 @@ The building process starts with installing the packages.
 
 ## Visualization
 ### Correlation between weight and mpg with respect to origins
-https://github.com/nogibjj/Kelly_Tong_Individual_Project1/blob/b3d1e3cc85eea862430cc145ced16f1e8228a3cc/scatter_mpg.png
+![plot1](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/blob/b3d1e3cc85eea862430cc145ced16f1e8228a3cc/scatter_mpg.png)
 
 ## Conclusion
 The dataset includes mostly age group from 25 to 35. The mean age is approximately 46. 
