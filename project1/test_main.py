@@ -13,5 +13,5 @@ def test_save_plot3():
 def test_save_plot4():
   assert os.path.exists("fitted_mpg.png")
 
-def test_save_plot5():
+def test_save_markdown():
   assert os.path.exists("desc_stats.md")
