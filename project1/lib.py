@@ -21,8 +21,8 @@ def save_plot(name, data):
 def describe_dataset(data_path):
   #Auto = pd.DataFrame(data_path)
   describe = data_path.describe()
-  markdown_describe = describe.to_markdown()
-  return markdown_output
+  #markdown_describe = describe.to_markdown()
+  return describe
 
 def scatter_mpg(data_path):
   Auto = data_path
