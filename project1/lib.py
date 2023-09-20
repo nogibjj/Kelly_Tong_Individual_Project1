@@ -4,7 +4,7 @@ import pandas as pd
 
 # This file includes all the functions created. 
 
-def load_data(data_path)
+def load_data(data_path):
   data = pd.read_csv(data_path)
   return data
 
