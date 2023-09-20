@@ -2,5 +2,5 @@
 import os
 
 def test_plot_save(self):
-  file_to_check = 'scatter_mpg.png'
+  #file_to_check = 'scatter_mpg.png'
   assert os.path.exists("scatter_mpg.png")
