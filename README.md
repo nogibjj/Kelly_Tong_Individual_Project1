@@ -66,24 +66,32 @@ Status badges for each makefile commands are displayed below. CI.yml includes al
 
 The building process starts with installing the packages. 
 **Make install** calls the command pip install --upgrade pip &&\pip install -r requirements.txt
-
-`make link`
-
-**Make lint** calls the command pylint --disable=R,C --ignore-patterns=test_.*?py *.py
-<img width="457" alt="make lint" src="https://github.com/Kelly0604/miniproject2/assets/142815940/39a19764-a6cc-4eaa-977f-7433b8915dad">
+<img width="1217" alt="install" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/df16531a-98ec-4459-9584-87995963d22c">
 
 `make test`
+**Make test** for jupyter notebook, calls the command python -m pytest -vv --cov=main test_*.py
+<img width="801" alt="test jupyter notebook" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/07a6728b-c465-4321-be24-b4760d9f6c89">
 
-**Make test** calls the command python -m pytest -vv --cov=main test_*.py
-<img width="609" alt="Make Test" src="https://github.com/nogibjj/KellyTong_miniproject2/assets/142815940/1d5eb1de-c0f7-4459-97bb-cae51ea621aa">
-
+**Make test** for python files, calls the command python -m pytest -vv --cov=main test_*.py
+<img width="637" alt="test python file" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/59dfdb11-cbc3-40ee-9a25-684f317f3fe1">
 
 `make format`
 
 **Make format** calls the command black *.py
+<img width="453" alt="make format" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/4176a55d-853a-4d61-9213-ac0d05a88217">
 
+`make lint`
+**Make lint** calls the command pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+<img width="243" alt="make lint" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/385e863e-6203-45ca-8a03-8b211fda209c">
 
-<img width="299" alt="make format" src="https://github.com/Kelly0604/miniproject2/assets/142815940/41df08ca-d8f7-4b62-b88b-1f39f1a7d858">
+`make deploy`
+no implementation of deployment is required in this repository
+<img width="180" alt="make deploy" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/bdc9c2a2-a49f-4690-b9f2-920d11e0a815">
+
+`generate_and_push`
+**generate_and push** automatically saves the plots and markdown file via github actions. 
+<img width="468" alt="generate_and_push" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/f969cbc2-016c-4a3b-bc07-d684ab18bcf4">
+
 
 ## Visualizations
 #### Correlation between weight and mpg with respect to origins
