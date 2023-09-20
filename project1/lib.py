@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 # This file includes all the functions created. 
 
 def view_dataset(data_path): 
-  Auto = pd.DataFrame(data_path)
+  Auto = pd.read_csv(data_path)
   print(Auto.info())
   print(Auto.head())
   print(Auto.columns())
