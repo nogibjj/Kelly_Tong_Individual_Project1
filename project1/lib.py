@@ -18,11 +18,12 @@ import matplotlib.pyplot as plt
   #scatter_mpg(data).savefig("project1/visualization/" + f"plot_{name}.png")
 
 
-def describe_dataset(data_path):
+def describe_dataset(data):
   #Auto = pd.DataFrame(data_path)
-  describe = data_path.describe()
+  df = pd.read_csv(data)
+  #describe = data.describe()
   #markdown_describe = describe.to_markdown()
-  return describe
+  return df.describe()
 
 def scatter_mpg(data_path):
   Auto = pd.read_csv(data_path)
