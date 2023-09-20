@@ -1,6 +1,6 @@
 import lib
 
-data = "Auto.csv"
+data = "gss.csv"
 
 def test_describe_dataset():
   lib.describe_dataset(data)
