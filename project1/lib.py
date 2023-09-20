@@ -71,6 +71,7 @@ def scatter_acc(data_path):
 
  # Show the plot
   plt.show()
+  plt.savefig("scatter_acc.png")
  
 
 def fitted_acc(data_path):
@@ -85,6 +86,7 @@ def fitted_acc(data_path):
   
   # Show the plot
   plt.show()
+  plt.savefig("fitted_acc.png")
 
 def generate_general_markdown(data):
     """generate an md file with outputs"""
