@@ -14,8 +14,8 @@ import matplotlib.pyplot as plt
   #print(Auto.head())
   #print(Auto.columns())
 
-def save_plot(name, data):
-  scatter_mpg(data).savefig("project1/visualization/" + f"plot_{name}.png")
+#def save_plot(name, data):
+  #scatter_mpg(data).savefig("project1/visualization/" + f"plot_{name}.png")
 
 
 def describe_dataset(data_path):
@@ -35,9 +35,12 @@ def scatter_mpg(data_path):
   plt.ylabel('MPG')
   plt.title('Correlation between Vehicle Weight and MPG based on origin')
   
+  plot.legend()
+  
   # Show the plot
   plt.show()
-  return plot
+  plt.savefig("scatter_mpg.png")
+  #return plot
 
 
 
