@@ -78,8 +78,8 @@ def fitted_acc(data_path):
 
 def generate_general_markdown(data):
     """generate an md file with outputs"""
-    markdown_table1 = describe_dataset(data)
-    markdown_table1 = str(markdown_table1)
+    markdown_table1 = describe_dataset(data).to_markdown()
+    #markdown_table1 = str(markdown_table1)
 
     # Write the markdown table to a file
     with open("desc_stats.md", "w", encoding="utf-8") as file:
