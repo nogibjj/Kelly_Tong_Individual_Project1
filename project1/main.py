@@ -13,7 +13,7 @@ def main():
 
     test_fitted_mpg(data)
 
-    #lib.generate_general_markdown(data)
+    lib.generate_general_markdown(data)
 
 def save_visual(name, data):
     lib.scatter_mpg(data)
