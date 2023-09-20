@@ -1,5 +1,5 @@
 from lib import describe_dataset
-import pandas as pd
+#import pandas as pd
 
 data = "project1/Auto.csv"
 
