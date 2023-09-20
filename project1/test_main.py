@@ -3,7 +3,8 @@ import os
 import main
 
 def test_data():
-  result = main.data()
+  dataset = "project1/Auto.csv"
+  result = main.data(dataset)
   assert result is not None
 
 def test_save_plot():
