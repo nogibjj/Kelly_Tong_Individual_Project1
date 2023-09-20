@@ -1,6 +1,6 @@
 #Check if the images and output markdown is generated
 import os
-import data from main
+from main import data
 
 def test_data():
   data = data()
