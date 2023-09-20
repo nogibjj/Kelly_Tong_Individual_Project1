@@ -11,11 +11,11 @@ def main():
 
     save_visual("scatter_mpg", data)
 
+    generate_general_markdown(data)
+
 def save_visual(name, data):
     lib.scatter_mpg(data)
     lib.save_plot(name, data)
-
-def save_visual(
     
 
 
