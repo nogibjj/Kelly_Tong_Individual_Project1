@@ -58,9 +58,6 @@ Status badges for each makefile commands are displayed below. CI.yml includes al
 `generate_and_push.yml`
 [![Generate_and_Push](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/generate_and_push.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/generate_and_push.yml)
 
-`CI.yml`
-[![CI](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/CI.yml)
-
 ## The Building Process
 
 `make install`
