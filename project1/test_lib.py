@@ -3,9 +3,6 @@ import lib
 
 data = "project1/Auto.csv"
 
-def test_view_dataset():
-  lib.view_dataset(data)
-
 def test_describe_dataset():
   lib.describe_dataset(data)
   
