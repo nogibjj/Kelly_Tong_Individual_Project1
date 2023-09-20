@@ -69,7 +69,8 @@ The building process starts with installing the packages.
 <img width="1217" alt="install" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/df16531a-98ec-4459-9584-87995963d22c">
 
 `make test`
-**Make test** for jupyter notebook, calls the command python -m pytest -vv --cov=main test_*.py
+
+**Make test** for jupyter notebook, calls the command py.test --nbval project1/*.ipynb
 <img width="801" alt="test jupyter notebook" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/07a6728b-c465-4321-be24-b4760d9f6c89">
 
 **Make test** for python files, calls the command python -m pytest -vv --cov=main test_*.py
@@ -81,14 +82,17 @@ The building process starts with installing the packages.
 <img width="453" alt="make format" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/4176a55d-853a-4d61-9213-ac0d05a88217">
 
 `make lint`
+
 **Make lint** calls the command pylint --disable=R,C --ignore-patterns=test_.*?py *.py
 <img width="243" alt="make lint" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/385e863e-6203-45ca-8a03-8b211fda209c">
 
 `make deploy`
+
 no implementation of deployment is required in this repository
 <img width="180" alt="make deploy" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/bdc9c2a2-a49f-4690-b9f2-920d11e0a815">
 
 `generate_and_push`
+
 **generate_and push** automatically saves the plots and markdown file via github actions. 
 <img width="468" alt="generate_and_push" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/f969cbc2-016c-4a3b-bc07-d684ab18bcf4">
 
