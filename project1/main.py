@@ -14,6 +14,8 @@ def main():
 def save_visual(name, data):
     lib.scatter_mpg(data)
     lib.save_plot(name, data)
+
+def save_visual(
     
 
 
