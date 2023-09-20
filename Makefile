@@ -31,7 +31,7 @@ generate_and_push:
 	@if [ -n "$$(git status --porcelain)" ]; then \
 		git config --local user.email "action@github.com"; \
 		git config --local user.name "GitHub Action"; \
-		git add scatter_mpg.png fitted_mpg.png scatter_acc.png fitted_acc.png; \
+		git add scatter_mpg.png fitted_mpg.png scatter_acc.png fitted_acc.png desc_stats.md; \
 		git commit -m "Add generated plot and report"; \
 		git push; \
 	else \
