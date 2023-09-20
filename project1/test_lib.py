@@ -1,13 +1,13 @@
-from lib import describe_dataset
+import lib
 #import pandas as pd
 
 data = "project1/Auto.csv"
 
 def test_describe_dataset():
-  describe_dataset(data)
+  lib.describe_dataset(data)
   
-#def test_scatter_mpg():
-  #lib.scatter_mpg(data)
+def test_scatter_mpg():
+  lib.scatter_mpg(data)
 
 #def test_fitted_mpg():
   #lib.fitted_mpg(data)
