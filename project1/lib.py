@@ -35,7 +35,7 @@ def fitted_mpg(data_path):
   # Set labels for the axes
   plt.xlabel('Vehicle weight (lbs)')
   plt.ylabel('MPG')
-  plt.title('Correlation between Vehicle Weight and MPG based on origin with line of best fit')
+  plt.title('Fitted Correlation between Vehicle Weight and MPG based on origin')
   
   # Show the plot
   plt.show()
@@ -63,7 +63,7 @@ def fitted_acc(data_path):
   
   plt.figure(figsize=(10, 6))
   sns.lmplot(data=Auto, x='weight', y='acceleration', hue='year', height=6, aspect=2)
-  plt.title('Correlation between Vehicle Weight and Acceleration based on year with line of best fit')
+  plt.title('Fitted Correlation between Vehicle Weight and Acceleration based on year')
   
   # Set labels for the axes
   plt.xlabel('Vehicle weight (lbs)')
