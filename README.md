@@ -84,16 +84,19 @@ The building process starts with installing the packages.
 `make lint`
 
 **Make lint** calls the command ruff check \project1/*.py
+
 <img width="243" alt="make lint" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/385e863e-6203-45ca-8a03-8b211fda209c">
 
 `make deploy`
 
 no implementation of deployment is required in this repository
+
 <img width="180" alt="make deploy" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/bdc9c2a2-a49f-4690-b9f2-920d11e0a815">
 
 `generate_and_push`
 
-**generate_and push** automatically saves the plots and markdown file via github actions. 
+**generate_and push** automatically saves the plots and markdown file via github actions.
+
 <img width="468" alt="generate_and_push" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/f969cbc2-016c-4a3b-bc07-d684ab18bcf4">
 
 
