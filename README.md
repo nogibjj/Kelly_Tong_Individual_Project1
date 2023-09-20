@@ -78,12 +78,12 @@ The building process starts with installing the packages.
 
 `make format`
 
-**Make format** calls the command black *.py
+**Make format** calls the command nbqa black  \project1/*.ipynb &&\ black \project1/*.py
 <img width="453" alt="make format" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/4176a55d-853a-4d61-9213-ac0d05a88217">
 
 `make lint`
 
-**Make lint** calls the command pylint --disable=R,C --ignore-patterns=test_.*?py *.py
+**Make lint** calls the command ruff check \project1/*.py
 <img width="243" alt="make lint" src="https://github.com/nogibjj/Kelly_Tong_Individual_Project1/assets/142815940/385e863e-6203-45ca-8a03-8b211fda209c">
 
 `make deploy`
