@@ -85,9 +85,11 @@ def generate_general_markdown(data):
         file.write("\n\n")  # Add a new line
         file.write("![weight vs mpg](scatter_mpg.png)\n")
         file.write("\n\n")  # Add a new line
+        file.write("\n\n")  # Add a new line
         file.write("![fitted weight vs mpg](fitted_mpg.png)\n")
         file.write("\n\n")  # Add a new line
         file.write("![weight vs acceleration](scatter_acc.png)\n")
+        file.write("\n\n")  # Add a new line
         file.write("\n\n")  # Add a new line
         file.write("![fitted weight vs acceleration](fitted_acc.png)\n")
 
