@@ -25,7 +25,7 @@ def describe_dataset(data_path):
   return describe
 
 def scatter_mpg(data_path):
-  Auto = data_path
+  Auto = pd.read_csv(data_path)
   # Create the scatter plot
   plt.figure(figsize=(10, 6))
   plot = sns.scatterplot(data = Auto, x = 'weight', y = 'mpg', hue = 'origin')
