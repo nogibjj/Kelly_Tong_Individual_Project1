@@ -4,11 +4,6 @@ import matplotlib.pyplot as plt
 
 # This file includes all the functions created. 
 
-def view_dataset(data): 
-  Auto = pd.read_csv(data)
-  print(Auto.info())
-  print(Auto.head())
-
 def describe_dataset(data):
   df = pd.read_csv(data)
   return df.describe()
@@ -81,8 +76,7 @@ def fitted_acc(data_path):
 def generate_general_markdown(data):
     """generate an md file with outputs"""
     describe = describe_dataset(data)
-    markdown_table1 = describe.to_markdown()
-    #markdown_table1 = str(markdown_table1)
+    markdown_table1 = str(describe)
 
     # Write the markdown table to a file
     with open("desc_stats.md", "w", encoding="utf-8") as file:
