@@ -1,5 +1,9 @@
 #Check if the images and output markdown is generated
 import os
+import main
+
+#def test_load_data():
+  #assert data is not None
 
 def test_save_plot():
   assert os.path.exists("scatter_mpg.png")
