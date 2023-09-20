@@ -11,16 +11,16 @@ def main():
 
     save_visual("scatter_mpg", data)
 
-    test_fitted_mpg(data)
+    #test_fitted_mpg(data)
 
-    lib.generate_general_markdown(data)
+    #lib.generate_general_markdown(data)
 
 def save_visual(name, data):
     lib.scatter_mpg(data)
     lib.save_plot(name, data)
 
-def test_fitted_mpg(data):
-    lib.fitted_mpg(data)
+#def test_fitted_mpg(data):
+    #lib.fitted_mpg(data)
 
 
 if __name__ == "__main__":
