@@ -1,9 +1,9 @@
-import lib
+from lib import describe_dataset
 
 data = "gss.csv"
 
 def test_describe_dataset():
-  lib.describe_dataset(data)
+  describe_dataset(data)
   
 #def test_scatter_mpg():
   #lib.scatter_mpg(data)
