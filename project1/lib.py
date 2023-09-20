@@ -39,7 +39,7 @@ def scatter_mpg(data_path):
   plt.show()
   return plot
 
-def fitted_mpg():
+def fitted_mpg(data_path):
   Auto = data_path
   
   plt.figure(figsize=(10, 6))
@@ -52,7 +52,7 @@ def fitted_mpg():
   # Show the plot
   plt.show()
 
-def scatter_acc():
+def scatter_acc(data_path):
   Auto = data_path
   
   # Create the scatter plot
@@ -63,9 +63,10 @@ def scatter_acc():
   plt.xlabel('Vehicle weight (lbs)')
   plt.ylabel('Acceleration')
   plt.title('Correlation between Vehicle Weight and acceleration based on year')
-  
-  # Show the plot
+
+ # Show the plot
   plt.show()
+ 
 
 def fitted_acc():
   Auto = data_path
@@ -79,4 +80,18 @@ def fitted_acc():
   
   # Show the plot
   plt.show()
+
+def generate_general_markdown(data):
+    """generate an md file with outputs"""
+    markdown_table1 = describe_dataset(data)
+    markdown_table1 = str(markdown_table1)
+
+    # Write the markdown table to a file
+    with open("Stats_output.md", "w", encoding="utf-8") as file:
+        file.write("Describe:\n")
+        file.write(markdown_table1)
+        file.write("\n\n")  # Add a new line
+        file.write("![weight vs mpg](mpg.png)\n")
+        file.write("\n\n")  # Add a new line
+        file.write("![fitted weight vs mpg](fitted_mpg.png)\n")
 
