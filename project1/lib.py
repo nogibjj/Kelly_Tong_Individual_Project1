@@ -69,7 +69,7 @@ def scatter_acc(data_path):
   plt.show()
  
 
-def fitted_acc():
+def fitted_acc(data_path):
   Auto = data_path
   
   plt.figure(figsize=(10, 6))
