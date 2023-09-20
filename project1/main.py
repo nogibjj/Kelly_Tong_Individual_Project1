@@ -9,15 +9,17 @@ def main():
     summary = lib.describe_dataset(data)
     print(summary)
 
-    save_visual("scatter_mpg", data)
+    lib.scatter_mpg(data)
+
+    #save_visual("scatter_mpg", data)
 
     #test_fitted_mpg(data)
 
     #lib.generate_general_markdown(data)
 
-def save_visual(name, data):
-    lib.scatter_mpg(data)
-    lib.save_plot(name, data)
+#def save_visual(name, data):
+    #lib.scatter_mpg(data)
+    #lib.save_plot(name, data)
 
 #def test_fitted_mpg(data):
     #lib.fitted_mpg(data)
