@@ -93,7 +93,8 @@ The building process starts with installing the packages.
 ![plot2](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/blob/643860451ba0a15403f7845adc7617d11b55d10f/fitted_mpg.png)
 
 #### Correlation between weight and acceleraton with respect to year
+![plot3](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/blob/a67b037d951f518ddc11b91881e9557fb7335b59/scatter_acc.png)
+
+#### Fitted correlation between weight and acceleraton with respect to year
 
 ## Conclusion
-The dataset includes mostly age group from 25 to 35. The mean age is approximately 46. 
-(Please find more detailed steps in the output.pdf)
