@@ -2,8 +2,11 @@ import lib
 
 data = "Auto.csv"
 
-def test_scatter_mpg():
-  lib.scatter_mpg(data)
+def test_describe_dataset():
+  lib.describe_dataset(data):
+  
+#def test_scatter_mpg():
+  #lib.scatter_mpg(data)
 
 #def test_fitted_mpg():
   #lib.fitted_mpg(data)
