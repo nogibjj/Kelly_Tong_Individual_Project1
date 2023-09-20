@@ -41,25 +41,25 @@ This repository is for IDS706 individual project 1.
 Status badges for each makefile commands are displayed below. CI.yml includes all commands. 
 
 `install.yml`
-[![install](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/install.yml)
+[![Install](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/install.yml)
 
 `test.yml`
-[![Test](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/test.yml)
+[![Test](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/test.yml)
 
 `format.yml`
-[![Format](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/format.yml)
+[![Format](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/format.yml)
 
 `lint.yml`
-[![Lint](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/lint.yml)
+[![Lint](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/lint.yml)
 
 `deploy.yml`
-[![Deploy](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/deploy.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/deploy.yml)
+[![Deploy](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/deploy.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/deploy.yml)
 
 `generate_and_push.yml`
-[![Generate_and_Push](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/generate_and_push.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/generate_and_push.yml)
+[![Generate_and_Push](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/generate_and_push.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/generate_and_push.yml)
 
 `CI.yml`
-[![CI](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/KellyTong_miniproject2/actions/workflows/CI.yml)
+[![CI](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/CI.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/CI.yml)
 
 ## The Building Process
 
