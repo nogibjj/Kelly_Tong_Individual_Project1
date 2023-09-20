@@ -14,10 +14,14 @@ max     46.600000    8.000000  ...   82.000000    3.000000
 ![weight vs mpg](scatter_mpg.png)
 
 
+
+
 ![fitted weight vs mpg](fitted_mpg.png)
 
 
 ![weight vs acceleration](scatter_acc.png)
+
+
 
 
 ![fitted weight vs acceleration](fitted_acc.png)
