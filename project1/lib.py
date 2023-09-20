@@ -4,15 +4,15 @@ import matplotlib.pyplot as plt
 
 # This file includes all the functions created. 
 
-def load_data(data_path):
-  data = pd.read_csv(data_path)
-  return data
+#def load_data(data_path):
+  #data = pd.read_csv(data_path)
+  #return data
 
-def view_dataset(data_path): 
-  Auto = pd.DataFrame(data_path)
-  print(Auto.info())
-  print(Auto.head())
-  print(Auto.columns())
+#def view_dataset(data_path): 
+  #Auto = pd.DataFrame(data_path)
+  #print(Auto.info())
+  #print(Auto.head())
+  #print(Auto.columns())
 
 def save_plot(name, data):
   scatter_mpg(data).savefig("project1/visualization/" + f"plot_{name}.png")
