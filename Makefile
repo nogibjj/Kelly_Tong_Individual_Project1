@@ -3,10 +3,12 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest -vv --cov=main  test_*.py
+	python -m py.test --nbval project1/*.ipynb 
+	python -m pytest -vv --cov=project1 project1/*.py
 
 format:	
-	black *.py 
+	nbqa black  \project1/*.ipynb &&\
+		black \project1/*.py
 
 lint:
 	ruff check \project1/*.py
