@@ -4,7 +4,7 @@ import lib
 
 def main():
     """Main function to call data visualization functions"""
-    data = "Auto.csv"
+    data = "project1/Auto.csv"
                        
     summary = lib.describe_dataset(data)
     print(summary)
