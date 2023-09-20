@@ -9,7 +9,7 @@ def main():
     summary = lib.describe_dataset(data)
     print(summary)
 
-    lib.scatter_mpg(data)
+    #lib.scatter_mpg(data)
 
     #save_visual("scatter_mpg", data)
 
