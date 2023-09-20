@@ -8,7 +8,6 @@ def view_dataset(data):
   Auto = pd.read_csv(data)
   print(Auto.info())
   print(Auto.head())
-  print(Auto.columns())
 
 def describe_dataset(data):
   df = pd.read_csv(data)
