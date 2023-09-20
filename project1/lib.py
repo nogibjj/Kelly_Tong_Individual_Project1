@@ -94,13 +94,17 @@ def generate_general_markdown(data):
     markdown_table1 = str(markdown_table1)
 
     # Write the markdown table to a file
-    with open("Stats_output.md", "w", encoding="utf-8") as file:
+    with open("desc_stats.md", "w", encoding="utf-8") as file:
         file.write("Describe:\n")
         file.write(markdown_table1)
-        #file.write("\n\n")  # Add a new line
-        #file.write("![weight vs mpg](mpg.png)\n")
+        file.write("\n\n")  # Add a new line
+        file.write("![weight vs mpg](scatter_mpg.png)\n")
         file.write("\n\n")  # Add a new line
         file.write("![fitted weight vs mpg](fitted_mpg.png)\n")
+        file.write("\n\n")  # Add a new line
+        file.write("![weight vs acceleration](scatter_acc.png)\n")
+        file.write("\n\n")  # Add a new line
+        file.write("![fitted weight vs acceleration](fitted_acc.png)\n")
 
 
 
