@@ -6,7 +6,7 @@ def main():
     """Main function to call data visualization functions"""
     data = lib.load_data("Auto.csv")
                        
-    summary = lib.summary_statistics(data)
+    summary = lib.describe_dataset(data)
     print(summary)
 
     save_visual("scatter_mpg", data)
