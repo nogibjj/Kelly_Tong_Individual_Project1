@@ -29,7 +29,7 @@ def scatter_mpg(data_path):
 def fitted_mpg(data_path):
   Auto = pd.read_csv(data_path)
   
-  plt.figure(figsize=(9, 5))
+  plt.figure(figsize=(6,4))
   sns.lmplot(data=Auto, x='weight', y='mpg', hue='origin', height=6, aspect=2)
   
   # Set labels for the axes
@@ -61,7 +61,7 @@ def scatter_acc(data_path):
 def fitted_acc(data_path):
   Auto = pd.read_csv(data_path)
   
-  plt.figure(figsize=(9, 5))
+  plt.figure(figsize=(7,5))
   sns.lmplot(data=Auto, x='weight', y='acceleration', hue='year', height=6, aspect=2)
   plt.title('Fitted Correlation between Vehicle Weight and Acceleration based on year')
   
