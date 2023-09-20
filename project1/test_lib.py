@@ -1,6 +1,7 @@
 from lib import describe_dataset
+import pandas as pd
 
-data = "gss.csv"
+data = pd.read_csv("project1,Auto.csv")
 
 def test_describe_dataset():
   describe_dataset(data)
