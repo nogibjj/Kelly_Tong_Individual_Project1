@@ -2,7 +2,8 @@
 
 This repository is for IDS706 individual project 1. 
 
-
+## Demo Video Link
+https://youtu.be/UXEMNOMdSQs
 
 ## Purpose 
     This repository uses panads to describe statistics and generate visualization for dataset Auto.csv. 
