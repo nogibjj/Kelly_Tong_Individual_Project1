@@ -50,6 +50,7 @@ https://youtu.be/UXEMNOMdSQs
 
 ## Github Actions
 Status badges for each makefile commands are displayed below.
+
 `install.yml`
 [![Install](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/install.yml)
 
