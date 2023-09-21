@@ -6,6 +6,8 @@ This repository is for IDS706 individual project 1.
 https://youtu.be/UXEMNOMdSQs
 
 ## Purpose 
+    The purpose of the project is to implement continuous integration using github actions of python. 
+    Automation is set up so Makefile commands are ran automatically through github actions. 
     This repository uses panads to describe statistics and generate visualization for dataset Auto.csv. 
     The dataset Auto.csv includes variables such as mpg, weight, year, origin and acceleration etc.
     General statistics are described in the describe_dataset() function. This includes statistics on
