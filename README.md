@@ -49,8 +49,7 @@ https://youtu.be/UXEMNOMdSQs
 - ``output.pdf`` displays the detailed output from running main.py
 
 ## Github Actions
-Status badges for each makefile commands are displayed below. CI.yml includes all commands. 
-
+Status badges for each makefile commands are displayed below.
 `install.yml`
 [![Install](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Kelly_Tong_Individual_Project1/actions/workflows/install.yml)
 
